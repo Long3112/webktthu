@@ -1,0 +1,31 @@
+﻿
+<!DOCTYPE HTML>
+<head>
+	<title>Free Home Shoppe Website Template | Home :: w3layouts</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link href="~/css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+<body>
+	<!-- Begin Wrap -->
+	<div class="wrap">
+		<!-- Begin Header -->
+
+		<!-- End Header -->
+		<!-- Begin Main -->
+		<main>
+			@RenderBody();
+		</main>
+		<!-- End Main -->
+	</div>
+	<!-- End Wrap -->
+	<!-- Begin Footer -->
+	<partial name="Long_Footer" />
+	<script src="~/lib/jquery/dist/jquery.min.js"></script>
+	@RenderSection("Script",required:false)
+
+	<!-- End Footer -->
+</body>
+</html>
+

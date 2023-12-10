@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ktwebt1234.props" />
+</Project>
